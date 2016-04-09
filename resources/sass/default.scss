@@ -1,0 +1,43 @@
+
+// -------------------------------------------------------------------------- //
+//                                                                            //
+// VARS                                                                       //
+// ^^^^                                                                       //
+//                                                                            //
+// -------------------------------------------------------------------------- //
+
+$colorTxt:#333333;
+$colorLink:#36c;
+$colorLinkActive:#003366;
+$colorLinkWarning:#990000;
+$colorLinkWarningActive:#660000;
+$colorBorder:#CCCCCC;
+$colorBgElements:#EEEEEE;
+
+$fontStack:"Helvetica Neue",Helvetica,Arial,sans-serif;
+$fontSize:13px;
+$fontSizeSmallScreen:11px;
+$fontSizeHeadl:1.3em;
+$fontSizeHeadl2:1.6em;
+$fontSizeSmall:0.85em;
+
+
+
+// -------------------------------------------------------------------------- //
+//                                                                            //
+// THEME                                                                      //
+// ^^^^^                                                                      //
+//                                                                            //
+// -------------------------------------------------------------------------- //
+
+// Harmonize font-size
+@import "inc/harmonize-font-size";
+
+// Remove round edges
+@import "inc/remove-round-edges";
+
+// Remove gradients
+@import "inc/remove-gradients";
+
+// Improvements
+@import "default/improvements";

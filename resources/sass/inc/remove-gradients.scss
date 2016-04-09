@@ -1,0 +1,21 @@
+// Remove gradients
+
+
+// Harmonize Chosen --------------------------------------------------------- //
+.chosen-container {
+	.chosen-results li.highlighted {
+		background-color: $colorLink;
+		background-image: none;
+	}
+}
+
+.chosen-container-single {
+	.chosen-single {
+		box-shadow:none;
+		background:#FFFFFF;
+	}
+}
+
+.chosen-container-active.chosen-with-drop .chosen-single {
+	background:#FFFFFF;
+}

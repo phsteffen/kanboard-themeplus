@@ -1,0 +1,24 @@
+################################################################################
+## IDE
+
+############
+## Netbeans
+/.nbproject/nbproject/private/
+
+############
+## PhpStorm
+*.iml
+/.idea/workspace.xml
+/.idea/tasks.xml
+/.idea/dictionaries
+
+############
+## gulp
+/node_modules
+
+############
+## project
+/dist/Themeplus/config.php
+/dist/Themeplus/Img/*
+!/dist/Themeplus/Img/.keep
+/dist/Themeplus/Css/my.css

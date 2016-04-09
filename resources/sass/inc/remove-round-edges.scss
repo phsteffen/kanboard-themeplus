@@ -1,0 +1,50 @@
+// Remove round edges
+
+
+
+// Remove round edges ------------------------------------------------------- //
+.filter-box input[type="text"],
+.filter-box div.dropdown:last-child,
+.views li:first-child,
+.views li:last-child,
+.editor-toolbar,
+.CodeMirror {
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.task-summary-container,
+.alert,
+.btn,
+.listing,
+.task-show-title {
+	border-radius: 0;
+}
+
+
+
+// Remove round edges on jquery-ui-elements --------------------------------- //
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-right,
+.ui-corner-br {
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+}
+
+
+
+// Harmonize Chosen --------------------------------------------------------- //
+.chosen-container-single {
+	.chosen-single {
+		border-radius: 0;
+	}
+
+	.chosen-drop {
+		border-radius: 0;
+	}
+}

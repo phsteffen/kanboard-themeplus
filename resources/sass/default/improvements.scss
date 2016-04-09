@@ -1,0 +1,265 @@
+// Improvements for the default-Theme
+
+
+// Fonts and Typography ----------------------------------------------------- //
+// Links
+a {
+	color:$colorLink;
+
+	&:hover {
+		color:$colorLinkActive;
+	}
+
+	&:focus {
+		color:$colorLinkActive;
+	}
+}
+
+// Headlines
+h2 {
+	font-size:$fontSizeHeadl;
+	font-weight: bold;
+}
+h3 {
+	font-size:$fontSizeHeadl;
+	font-weight: bold;
+}
+
+
+
+// Form-Elements ------------------------------------------------------------ //
+input[type="number"],
+input[type="date"],
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+	padding-left:5px;
+}
+
+select {
+	padding:5px 3px 5px 3px;
+	margin-top: 10px;
+	max-width: 95%;
+	width: 200px;
+}
+
+table select {
+	margin-top:0;
+}
+
+.filter-box input[type="text"] {
+	padding-left:5px;
+}
+
+.form-actions {
+	margin-bottom: 20px;
+}
+
+.form-column ul {
+	margin-top:5px;
+}
+
+.form-help {
+	margin-top:5px;
+}
+
+
+
+// Buttons ------------------------------------------------------------------ //
+.btn {
+	padding: 5px 10px 5px 10px;
+}
+
+.btn-blue {
+	background:$colorLink;
+	border:none;
+
+	&:hover,
+	&:focus {
+		background:$colorLinkActive;
+		border:none;
+	}
+}
+
+.btn-red {
+	background:$colorLinkWarning;
+	border:none;
+
+	&:hover,
+	&:focus {
+		background:$colorLinkWarningActive;
+		border:none;
+	}
+}
+
+
+
+// Table -------------------------------------------------------------------- //
+table {
+	border-collapse: separate;
+	margin-bottom:30px;
+	border-top:1px solid $colorBorder;
+	border-right:1px solid $colorBorder;
+}
+
+th {
+	background:$colorBgElements;
+}
+
+th, td {
+	border-top: none;
+	border-right:none;
+	border-bottom:1px solid $colorBorder;
+	border-left:1px solid $colorBorder;
+	padding:6px 4px 6px 4px;
+}
+
+
+
+// Page- and Project-Header ------------------------------------------------- //
+.page-header {
+	background:$colorBgElements;
+	padding:5px 15px 5px 15px;
+
+	h2 {
+		font-size:$fontSizeHeadl;
+		border:none;
+	}
+
+	ul {
+		//margin-top:0;
+
+		.fa {
+			color:$colorLinkActive;
+		}
+
+		a {
+			text-decoration:none;
+		}
+	}
+}
+
+.project-header {
+	background:$colorBgElements;
+	padding:5px 15px 5px 15px;
+	margin-top:0;
+}
+
+
+
+// Board -------------------------------------------------------------------- //
+.board-column-header-task-count {
+	color:#999999;
+	font-size:$fontSizeSmall;
+}
+
+.task-board {
+	padding:4px;
+	margin:10px 10px 20px 10px;
+}
+
+.project-overview-column strong {
+	font-size:2em;
+}
+
+.project-overview-column {
+	border-radius:0;
+	min-width:100px;
+	margin-right:20px;
+}
+
+.activity-event {
+	border-bottom: 1px solid $colorBorder;
+	padding:8px 0 20px 14px;
+}
+
+.activity-title {
+	border:none;
+}
+
+
+
+// Tasks -------------------------------------------------------------------- //
+#task-summary h2 {
+	font-size:$fontSizeHeadl2;
+	color:$colorTxt;
+}
+
+.task-show-title h2 {
+	font-size:$fontSizeHeadl2;
+	color:$colorTxt;
+}
+
+.comment-sorting {
+	font-size:$fontSizeSmallScreen;
+}
+
+.task-summary-column {
+	color:$colorTxt;
+}
+
+
+
+// Messages ----------------------------------------------------------------- //
+.alert {
+	margin-bottom:30px;
+}
+
+
+
+// Others ------------------------------------------------------------------- //
+.textarea-dropdown .active,
+.textarea-dropdown li:hover,
+.dropdown-submenu-open li:hover:not(.no-hover) {
+	background: $colorLink;
+}
+
+.accordion-title {
+	background:$colorBgElements;
+	padding:3px 0 3px 10px;
+}
+
+.accordion-title h3 {
+	background:none;
+}
+
+.views li {
+	background:none;
+	border:none;
+}
+
+
+
+// Color -------------------------------------------------------------------- //
+// Update the yellow
+
+.color-yellow {
+	background-color:#FDFDAE !important;
+	border-color:#E4C600 !important;
+}
+
+.alert {
+	background-color:#FDFDAE;
+	border-color:#E4C600;
+	color:#CC9900;
+}
+
+
+
+// Login-Page --------------------------------------------------------------- //
+#login-top {
+	margin-bottom:40px;
+}
+
+#login-bottom {
+	margin-top:40px;
+
+	ul {
+		list-style-type:none;
+
+		li {
+			margin-left:0;
+		}
+	}
+}
+
