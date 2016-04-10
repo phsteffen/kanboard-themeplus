@@ -12,13 +12,18 @@
 /.idea/tasks.xml
 /.idea/dictionaries
 
-############
+################################################################################
 ## gulp
 /node_modules
 
-############
+################################################################################
 ## project
 /dist/Themeplus/config.php
 /dist/Themeplus/Img/*
 !/dist/Themeplus/Img/.keep
 /dist/Themeplus/Css/my.css
+
+############
+## my.css
+/resources/sass/my.scss
+/resources/sass/my

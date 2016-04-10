@@ -14,6 +14,14 @@ var del = require('del');
 
 
 // -------------------------------------------------------------------------- //
+// VARS                                                                       //
+// -------------------------------------------------------------------------- //
+
+var dirDistKanboardInstance = '../kanboard/plugins/Themeplus';
+
+
+
+// -------------------------------------------------------------------------- //
 // STYLE                                                                      //
 // -------------------------------------------------------------------------- //
 
@@ -32,13 +40,13 @@ gulp.task('styles', function() {
 // -------------------------------------------------------------------------- //
 
 gulp.task('cleanKanboard', function(callback) {
-	return del(['../kanboard/plugins/Themeplus/**'], //This tells del to delete all files and folders within the dist folder
+	return del([dirDistKanboardInstance + '/**'], //This tells del to delete all files and folders within the dist folder
 	{force:true});
 });
 
 gulp.task('copyKanboard', ['cleanKanboard'], function() {
 	gulp.src('dist/Themeplus/**/*')
-		.pipe(gulp.dest('../kanboard/plugins/Themeplus'));
+		.pipe(gulp.dest(dirDistKanboardInstance));
 });
 
 

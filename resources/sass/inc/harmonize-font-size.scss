@@ -36,7 +36,9 @@ header ul,
 .activity-date,
 .task-summary-column,
 .task-summary-buttons,
-.subtasks-table {
+.subtasks-table,
+div.ganttview-vtheader-series-name,
+.tooltip .fa-info-circle {
 	font-size: 1em;
 }
 
