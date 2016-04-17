@@ -1,0 +1,75 @@
+// Display none/block for printing
+
+
+
+@media print {
+
+	// Links -------------------------------------------------------------------- //
+	a.btn {
+		display:none;
+	}
+
+
+	// Header ------------------------------------------------------------------- //
+	header {
+		display:block;
+	}
+
+	header nav ul {
+		display:none;
+	}
+
+
+	// Page- and Project-Header ------------------------------------------------- //
+	.page-header {
+		display:block;
+
+		ul {
+			display:none;
+		}
+	}
+
+	.project-header {
+		display:none;
+	}
+
+
+	// Filter-box for example on dashboard
+	.filter-box {
+		display:none;
+	}
+
+	// Dropbox for example on projectlist on dashboard
+	.dropdown ul {
+		display:none;
+	}
+
+	// Board -------------------------------------------------------------------- //
+	#board-container {
+
+		.board-add-icon {
+			display:none;
+		}
+
+		a.dropdown-menu i {
+			display:none;
+		}
+
+	}
+
+	// Ticket ------------------------------------------------------------------- //
+	#task-summary h2,
+	.task-show-title h2,
+	.task-summary-column span {
+		color:#000000;
+	}
+
+	.accordion-collapsed {
+		display:none;
+	}
+
+	.comment-sorting .fa-sort {
+		display:none;
+	}
+
+}

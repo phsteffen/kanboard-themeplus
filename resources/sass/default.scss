@@ -41,3 +41,18 @@ $fontSizeSmall:0.85em;
 
 // Improvements
 @import "default/improvements";
+
+
+
+// -------------------------------------------------------------------------- //
+//                                                                            //
+// PRINT                                                                      //
+// ^^^^^                                                                      //
+//                                                                            //
+// -------------------------------------------------------------------------- //
+
+// Display none
+@import "inc/print-display";
+
+// Design improvements
+@import "inc/print-improvements";
