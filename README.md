@@ -28,7 +28,7 @@ For some Screenshots - scroll down.
 * Add a grey background to the header-menu-bar
 * Add some grey backgrounds to page- and projectheaders for better visual structure
 * Add a line (border-bottom) in activity-list for better visual structure
-
+* Printer-friendly: Add some improvements for printing dashboard, board and task
 
 
 #### Add some options for the theme
