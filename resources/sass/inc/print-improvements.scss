@@ -72,13 +72,53 @@
 
 
 	// Ticket ------------------------------------------------------------------- //
+	#task-view {
+		.sidebar {
+			h2:first-child {
+				margin-top:50px;
+				margin-bottom:5px;
+				font-size:1.6em;
+				font-weight:normal;
+			}
+		}
+	}
+
+	#task-summary {
+		.task-summary-container {
+			padding-right:80px;
+		}
+	}
+
 	.accordion-title {
 		background:none;
 		padding:0;
-		margin-top:20px;
+		margin-top:40px;
 
 		h3 {
 			margin:0;
+		}
+	}
+
+	#comments {
+		.avatar {
+			float:left;
+			width:48px;
+
+			.avatar-letter {
+				color: #fff;
+				text-align: center;
+			}
+		}
+
+		.avatar-48 {
+			.avatar-letter {
+				font-size: 25px;
+				line-height: 48px;
+				width: 48px;
+			}
+			img, div {
+				border-radius: 30px;
+			}
 		}
 	}
 

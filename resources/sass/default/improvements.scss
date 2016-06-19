@@ -162,6 +162,11 @@ th, td {
 
 
 // Board -------------------------------------------------------------------- //
+#board-container {
+	overflow-x:inherit;
+}
+
+
 .board-add-icon {
 
 	padding-top:2px;
