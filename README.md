@@ -11,7 +11,7 @@ Because this plugin is based on an specific version of kanboard
 please be careful on upgrade. Perhaps some elements will be changed in future
 versions of kanboard and you have to update the plugin too.
 
-**The actual version of this plugin is based on kanboard v1.0.27**
+**The actual version of this plugin is based on kanboard v1.0.30**
 
 
 
