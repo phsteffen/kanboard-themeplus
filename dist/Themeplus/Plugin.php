@@ -38,7 +38,7 @@ class Plugin extends Base
 
 		// Change the Header for add Logo
 		if (isset($themePlusConfig['logo'])) {
-			$this->template->setTemplateOverride('header', 'themeplus:layout/header');
+			$this->template->setTemplateOverride('header/title', 'themeplus:layout/header/title');
 		}
 
 
@@ -60,7 +60,7 @@ class Plugin extends Base
 
 	public function getPluginName()	{ 		 return 'Theme Plus'; }
 	public function getPluginAuthor() { 	 return 'Philip Steffen'; }
-	public function getPluginVersion() { 	 return '0.1.0 alpha'; }
+	public function getPluginVersion() { 	 return '0.2.0 alpha'; }
 	public function getPluginDescription() { return 'Improved and expanded theme'; }
 	public function getPluginHomepage() { 	 return 'https://github.com/phsteffen/kanboard-themeplus'; }
 

@@ -57,5 +57,5 @@ gulp.task('copyKanboard', ['cleanKanboard'], function() {
 
 gulp.task('stylesCleanCopy',function() {
 	gulp.watch('resources/sass/**/*', ['styles']);
-	gulp.watch('dist/Themeplus/**/*', ['cleanKanboard', 'copyKanboard']);
+	gulp.watch('dist/Themeplus/**/*', ['copyKanboard']);
 });

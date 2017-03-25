@@ -11,7 +11,7 @@ Because this plugin is based on an specific version of kanboard
 please be careful on upgrade. Perhaps some elements will be changed in future
 versions of kanboard and you have to update the plugin too.
 
-**The actual version of this plugin is based on kanboard v1.0.30**
+**The actual version of this plugin is based on kanboard v1.0.41**
 
 
 
@@ -28,7 +28,6 @@ For some Screenshots - scroll down.
 * Add a grey background to the header-menu-bar
 * Add some grey backgrounds to page- and projectheaders for better visual structure
 * Add a line (border-bottom) in activity-list for better visual structure
-* Printer-friendly: Add some improvements for printing dashboard, board and task
 
 
 #### Add some options for the theme
@@ -38,7 +37,6 @@ Themeplus-Plugin and rename it to `config.php`. For example you can add your log
 on the login-page and some more things. For more information have a look in the
 config-default.php.
 
-* Chose an other theme - for example a dark-theme
 * Add your own css-file or replace the plugin-css-file
 * Add a logo at login-page
 * Add one oder more links at the login-page (for example in germany it
@@ -85,8 +83,3 @@ Task
 Overview
 
 ![Screenshot overview](https://github.com/phsteffen/kanboard-themeplus/raw/master/screenshots/overview.png)
-
-
-## Screenshot of a dark-theme - but this is a really, really early stage
-
-![Screenshot dark-theme](https://github.com/phsteffen/kanboard-themeplus/raw/master/screenshots/dark.png)

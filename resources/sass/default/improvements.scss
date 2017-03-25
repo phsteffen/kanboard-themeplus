@@ -35,6 +35,10 @@ input[type="password"],
 input[type="text"] {
 	padding-left:5px;
 	border-color:$colorBorder;
+
+	&:focus {
+		box-shadow:none;
+	}
 }
 
 select {
@@ -42,6 +46,12 @@ select {
 	margin-top: 10px;
 	max-width: 95%;
 	width: 200px;
+}
+
+textarea {
+	&:focus {
+		box-shadow:none;
+	}
 }
 
 .select2-container--default {
@@ -121,18 +131,44 @@ table {
 	margin-bottom:30px;
 	border-top:1px solid $colorBorder;
 	border-right:1px solid $colorBorder;
+
+	th {
+		background:$colorBgElements;
+	}
+
+	th, td {
+		border-top: none;
+		border-right:none;
+		border-bottom:1px solid $colorBorder;
+		border-left:1px solid $colorBorder;
+		padding:6px 4px 6px 4px;
+	}
 }
 
-th {
+.table-list-header {
 	background:$colorBgElements;
-}
+	border-color:$colorBorder;
 
-th, td {
-	border-top: none;
-	border-right:none;
-	border-bottom:1px solid $colorBorder;
-	border-left:1px solid $colorBorder;
-	padding:6px 4px 6px 4px;
+	.table-list-header-count {
+		margin-left:15px;
+	}
+}
+.table-list-row {
+	padding-left:15px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-color:$colorBorder;
+
+	&:hover {
+		border-right-color:$colorBorder;
+		border-bottom-color:$colorBorder;
+		border-top-color:$colorBorder;
+	}
+
+	.table-list-details {
+		line-height:22px;
+		margin-bottom:5px;
+	}
 }
 
 
@@ -141,6 +177,11 @@ th, td {
 .page-header {
 	background:$colorBgElements;
 	padding:5px 15px 5px 15px;
+	border-top:1px solid $colorBorder;
+
+	&:first-child {
+		border-top:none;
+	}
 
 	h2 {
 		font-size:$fontSizeHeadl;
@@ -148,7 +189,8 @@ th, td {
 	}
 
 	ul {
-		margin-top:0;
+		margin-top:5px;
+		margin-bottom:5px;
 
 		.fa {
 			color:$colorLinkActive;
@@ -164,6 +206,12 @@ th, td {
 	background:$colorBgElements;
 	padding:5px 15px 5px 15px;
 	margin-top:0;
+	margin-bottom: 20px;
+
+	.input-addon-item {
+		background:#FFFFFF;
+		border-color:$colorBorder;
+	}
 }
 
 .sidebar-content {
@@ -189,10 +237,15 @@ th, td {
 	line-height:10px;
 
 	a {
-		color:$colorLink;
+		i {
+			font-size:1em;
+			color: $colorLink;
+		}
 
 		&:hover {
-			color:$colorLinkActive;
+			i {
+				color: $colorLinkActive;
+			}
 		}
 	}
 }
@@ -209,6 +262,11 @@ th, td {
 
 div.task-board-recent { // New Cards
 	border-width:3px;
+}
+
+.task-board-icons,
+.task-list-icons {
+	font-size:1em;
 }
 
 .project-overview-column strong {
@@ -262,6 +320,25 @@ div.task-board-recent { // New Cards
 	color:$colorTxt;
 }
 
+.task-list-tag {
+	background:$colorBgElements;
+	border-color:$colorBorder;
+}
+
+.table-list-category {
+	border-color:$colorBorder;
+}
+
+.text-editor-toolbar {
+	width: 700px;
+	max-width: 98%;
+	margin-top:20px;
+	margin-bottom:5px;
+	padding:6px 4px 6px 4px;
+
+	background:$colorBgElements;
+}
+
 
 
 // Messages ----------------------------------------------------------------- //
@@ -309,13 +386,13 @@ div.task-board-recent { // New Cards
 // Update the yellow
 
 .color-yellow {
-	background-color:#FDFDAE !important;
-	border-color:#E4C600 !important;
+	//background-color:#FDFDAE !important;
+	//border-color:#E4C600 !important;
 }
 
 td.color-yellow {
-	background-color:#FDFDAE !important;
-	border-color:$colorBorder !important;
+	//background-color:#FDFDAE !important;
+	//border-color:$colorBorder !important;
 }
 
 .alert {
@@ -323,6 +400,8 @@ td.color-yellow {
 	border-color:#E4C600;
 	color:#CC9900;
 }
+
+// Add Background
 
 
 
@@ -343,3 +422,15 @@ td.color-yellow {
 	}
 }
 
+
+// Lightbox/modal ----------------------------------------------------------- //
+
+#modal-header {
+	margin-top:5px;
+	margin-bottom:5px;
+	font-size:1.5em;
+}
+
+#modal-content {
+	padding:0 20px 0 20px;
+}
