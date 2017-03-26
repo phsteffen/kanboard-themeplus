@@ -17,7 +17,7 @@ var del = require('del');
 // VARS                                                                       //
 // -------------------------------------------------------------------------- //
 
-var dirDistKanboardInstance = '../kanboard/plugins/Themeplus';
+var dirDistKanboardInstance = '../kanboard/dist/www/plugins/Themeplus';
 
 
 
@@ -55,7 +55,9 @@ gulp.task('copyKanboard', ['cleanKanboard'], function() {
 // WATCH-TASK                                                                 //
 // -------------------------------------------------------------------------- //
 
-gulp.task('stylesCleanCopy',function() {
+gulp.task('default',function() {
+	gulp.start('styles');
+	gulp.start('copyKanboard');
 	gulp.watch('resources/sass/**/*', ['styles']);
 	gulp.watch('dist/Themeplus/**/*', ['copyKanboard']);
 });

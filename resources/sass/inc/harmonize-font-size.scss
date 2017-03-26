@@ -22,6 +22,7 @@ body {
 table,
 .table-small,
 .table-list,
+.table-list-row .table-list-icons,
 .views,
 header ul,
 .fc-event,
@@ -32,6 +33,7 @@ header ul,
 .form-help,
 .btn,
 .buttons-header,
+.task-board-category,
 .task-board-title,
 .task-board,
 .activity-date,
@@ -39,7 +41,8 @@ header ul,
 .task-summary-buttons,
 .subtasks-table,
 div.ganttview-vtheader-series-name,
-.tooltip .fa-info-circle {
+.tooltip .fa-info-circle,
+legend {
 	font-size: 1em;
 }
 

@@ -1,6 +1,26 @@
 // Improvements for the default-Theme
 
 
+// Color -------------------------------------------------------------------- //
+// Update the yellow
+
+.task-board.color-yellow, .task-summary-container.color-yellow, .color-picker-square.color-yellow {
+	background-color:#FDFDAE !important;
+	border-color:#E4C600 !important;
+}
+
+td.color-yellow {
+	//background-color:#FDFDAE !important;
+	//border-color:$colorBorder !important;
+}
+
+.alert {
+	background-color:#FDFDAE;
+	border-color:#E4C600;
+	color:#CC9900;
+}
+
+
 // Fonts and Typography ----------------------------------------------------- //
 // Links
 a {
@@ -28,6 +48,11 @@ h3 {
 
 
 // Form-Elements ------------------------------------------------------------ //
+
+legend {
+	font-weight:bold;
+}
+
 input[type="number"],
 input[type="date"],
 input[type="email"],
@@ -41,9 +66,13 @@ input[type="text"] {
 	}
 }
 
+input[type="text"]:not(.input-addon-field) {
+	color:$colorTxt;
+}
+
 select {
 	padding:5px 3px 5px 3px;
-	margin-top: 10px;
+	//margin-top: 10px;
 	max-width: 95%;
 	width: 200px;
 }
@@ -68,6 +97,9 @@ textarea {
 	}
 }
 
+#select-dropdown-menu {
+	overflow:auto;
+}
 
 table select {
 	margin-top:0;
@@ -154,10 +186,13 @@ table {
 	}
 }
 .table-list-row {
-	padding-left:15px;
-	padding-top:10px;
-	padding-bottom:10px;
+	padding:10px 15px 10px 15px;
 	border-color:$colorBorder;
+
+	&.color-yellow {
+		//border-color:$colorBorder !important;
+		border-left:solid 5px #E4C600 !important;
+	}
 
 	&:hover {
 		border-right-color:$colorBorder;
@@ -269,6 +304,16 @@ div.task-board-recent { // New Cards
 	font-size:1em;
 }
 
+.task-board-category,
+.task-tags li {
+	padding:2px 3px 2px 3px;
+}
+
+.task-tags li {
+	border-color:#666666;
+	color:#666666;
+}
+
 .project-overview-column strong {
 	font-size:2em;
 }
@@ -329,6 +374,27 @@ div.task-board-recent { // New Cards
 	border-color:$colorBorder;
 }
 
+.subtask-cell {
+	border-color: $colorBorder;
+
+	&:first-child {
+		padding-left:0;
+	}
+}
+
+.task-list-subtasks {
+	margin-top:5px;
+}
+
+.task-list-subtask {
+	&:last-child {
+		.subtask-cell {
+			border-bottom: 1px dotted $colorBorder;
+		}
+	}
+}
+
+
 .text-editor-toolbar {
 	width: 700px;
 	max-width: 98%;
@@ -382,29 +448,6 @@ div.task-board-recent { // New Cards
 }
 
 
-// Color -------------------------------------------------------------------- //
-// Update the yellow
-
-.color-yellow {
-	//background-color:#FDFDAE !important;
-	//border-color:#E4C600 !important;
-}
-
-td.color-yellow {
-	//background-color:#FDFDAE !important;
-	//border-color:$colorBorder !important;
-}
-
-.alert {
-	background-color:#FDFDAE;
-	border-color:#E4C600;
-	color:#CC9900;
-}
-
-// Add Background
-
-
-
 // Login-Page --------------------------------------------------------------- //
 #login-top {
 	margin-bottom:40px;
@@ -433,4 +476,72 @@ td.color-yellow {
 
 #modal-content {
 	padding:0 20px 0 20px;
+}
+
+
+// Documentation ------------------------------------------------------------ //
+
+.documentation {
+	img {
+		border-color: $colorBorder;
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+
+	li {
+		line-height:1.6em;
+	}
+
+	h1 {
+		padding-bottom:5px;
+		border-bottom:1px solid $colorBorder;
+
+		margin-top: 40px;
+		margin-bottom: 30px;
+
+		&:first-child {
+			margin-top: 5px;
+		}
+	}
+
+	h2 {
+		padding-bottom:5px;
+		border-color:$colorBorder;
+
+		margin-top: 25px;
+		margin-bottom: 10px;
+	}
+
+	h3 {
+		margin-top: 25px;
+		margin-bottom: 10px;
+	}
+}
+
+
+// Markdown ----------------------------------------------------------------- //
+
+.markdown {
+	h1 {
+		margin-top:20px;
+		margin-bottom:10px;
+		padding-bottom:5px;
+		border-bottom:1px solid $colorBorder;
+	}
+
+	h2 {
+		margin-top:20px;
+		margin-bottom:10px;
+		padding-bottom:5px;
+		border-bottom:1px solid $colorBorder;
+	}
+
+	h3 {
+		margin-top:20px;
+		margin-bottom:10px;
+	}
+
+	p {
+		margin-bottom:5px;
+	}
 }
