@@ -8,12 +8,12 @@
 // 'default' = Default theme of kanboard with visual improvements
 // 'dark'    = A dark theme
 // ''        = No theme - for example if you want to integrate your own css-file, not based on the improvements
-//$themePlusConfig['theme'] = 'default';
+$themePlusConfig['theme'] = '';
 
 // Add your own css-file
 // Just copy the file in the "Css"-directory in the plugin-directory and
 // uncomment the next line and perhaps customize the css-filename.
-$themePlusConfig['css'] = 'copd-themev1.css';
+$themePlusConfig['css'] = 'gray-theme.css';
 $themePlusConfig['libicons'] = 'libicons.css';
 
 // Add your logo on the login-page
