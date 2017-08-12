@@ -9,7 +9,7 @@
         <?= $this->text->e($this->user->getFullname()) ?>
         
         </span>
-        <i class="ico-carret-down"></i></a>
+
         <ul>
             <li class="no-hover">
                 <p><?= $this->text->e($this->user->getFullname()) ?></p>
