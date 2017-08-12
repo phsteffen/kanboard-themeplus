@@ -1,0 +1,43 @@
+// ===================================================
+// Variáveis
+// ===================================================
+
+
+// Media queries
+
+$mobile:       "screen and (max-width: 767px)";
+$tablet:       "screen and (min-width: 768px) and (max-width: 960px)";
+$desktop:      "screen and (min-width: 960px) and (max-width: 1299px)";
+$desktop-xl:   "screen and (min-width: 1300px) and (max-width: 1799px)";
+$desktop-xxl:  "screen and (min-width: 1800px)";
+
+// Paletas Kanboard Starscream
+
+$red: rgba(243, 111, 81, 1);
+$red-light: rgba(255, 158, 104, 1);
+
+$yellow: rgba(250, 199, 91, 1);
+$yellow-light: rgba(255, 216, 0, 1);
+
+$green: rgba(18, 183, 0, 1);
+$green-light: rgba(152, 203, 104, 1);
+
+$blue: rgba(51, 133, 213, 1);
+$blue-light: rgba(45, 140, 168, 1);
+
+//$blue-dark: darken($blue, 10%); 
+//$green-dark: darken($green, 10%); 
+//$yellow-dark: darken($yellow, 10%); 
+//$red-dark: darken($red, 10%); 
+
+$gray-lightest: rgba(235, 235, 235, 1);
+$gray-lighter: rgba(204, 204, 204, 1);
+$gray-light: rgba(178, 178, 178, 1);
+$gray: rgba(137, 137, 137, 1);
+$gray-dark: rgba(79, 79, 79, 1);
+$gray-darker: rgba(61, 61, 61, 1);
+$gray-darkest: rgba(48, 48, 48, 1);
+
+// Box Shadows
+$shadow-containers: 0 .1rem .2rem rgba(53, 64, 80, .12), 0 .05rem .25rem rgba(53, 64, 80, .24);
+$shadow-containers-up: 0 .5rem 2.0rem rgba(53, 64, 80,.25), 0 .4rem .2rem rgba(53, 64, 80,.10);
