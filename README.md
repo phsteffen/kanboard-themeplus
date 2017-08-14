@@ -1,6 +1,8 @@
-# kanboard-themeplus
-Improved and expanded theme of kanboard.
-kanboard is a project management software that focuses on the Kanban methodology.
+# KB-themeplus-gray
+
+Modern and responsive theme of kanboard. 
+
+**Kanboard** is a project management software that focuses on the Kanban methodology.
 https://github.com/fguillot/kanboard
 
 
