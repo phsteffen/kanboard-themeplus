@@ -24,7 +24,7 @@ This is a fork from [Themeplus](https://github.com/phsteffen/kanboard-themeplus)
 * Add mobile hamburguer menu for access Sidebar in small screens
 * Add more padding for improve the visual comfort
 * Material Design like inputs
-* 
+* New stykle 
 
 #### Installation
 
@@ -44,24 +44,33 @@ This is a fork from [Themeplus](https://github.com/phsteffen/kanboard-themeplus)
 
 
 
-## Screenshots of improvments (before and afterwards)
+## Screenshots
 
-Dashboard
+Mobile Version :-D
 
-![Screenshot dashboard](https://github.com/phsteffen/kanboard-themeplus/raw/master/screenshots/dashboard.png)
+![Mockup Iphone 6](https://github.com/deciobenicio/kanboard-themeplus/raw/master/screenshots/iphone6-mockup.jpg)
 
-Board
 
-![Screenshot board](https://github.com/phsteffen/kanboard-themeplus/raw/master/screenshots/board.png)
+### Dashboard
 
-New Task
+![Screenshot dashboard-mobile](https://github.com/deciobenicio/kanboard-themeplus/raw/master/screenshots/dashboard-mobile.png)
 
-![Screenshot new task](https://github.com/phsteffen/kanboard-themeplus/raw/master/screenshots/newtask.png)
+![Screenshot dashboard](https://github.com/deciobenicio/kanboard-themeplus/raw/master/screenshots/dashboard.png)
 
-Task
+### Board
 
-![Screenshot task](https://github.com/phsteffen/kanboard-themeplus/raw/master/screenshots/task.png)
+![Screenshot board mobile](https://github.com/deciobenicio/kanboard-themeplus/raw/master/screenshots/board-mobile.png)
 
-Overview
+![Screenshot board](https://github.com/deciobenicio/kanboard-themeplus/raw/master/screenshots/board.png)
 
-![Screenshot overview](https://github.com/phsteffen/kanboard-themeplus/raw/master/screenshots/overview.png)
+
+### Task Modal
+
+![Screenshot task mobile](https://github.com/deciobenicio/kanboard-themeplus/raw/master/screenshots/task.png)
+
+### Tasks Lists
+
+![Screenshot task list mobile](https://github.com/deciobenicio/kanboard-themeplus/raw/master/screenshots/list-tasks-mobile.png)
+
+![Screenshot task list mobile](https://github.com/deciobenicio/kanboard-themeplus/raw/master/screenshots/list-tasks.png)
+
