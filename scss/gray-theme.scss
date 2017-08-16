@@ -74,6 +74,11 @@ a{
             padding: 40px 20px 5px;
         }
     }
+    
+    .sidebar-container{ 
+        width: calc(100% + 40px);
+        margin: -20px -20px 0 ;
+    }
 }
 
 .panel, fieldset{
@@ -409,6 +414,8 @@ label {
     text-transform: uppercase;
     font-size: 12px;
     margin-top: 18px;
+    
+    
 }
 input[type="number"], input[type="date"], input[type="email"], input[type="password"], input[type="text"]:not(.input-addon-field), textarea, select{
     background-color: transparent;
@@ -633,6 +640,7 @@ input[type="number"], input[type="date"], input[type="email"], input[type="passw
             a{
                 display: block;
                 padding: 8px 8px;
+                text-transform: uppercase;
             }
         }
     }
