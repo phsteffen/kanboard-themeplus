@@ -50,15 +50,15 @@ $themePlusConfig['creation'] = '';
 $themePlusConfig['notifications'] = '';
 $themePlusConfig['usericons'] = '';
 $themePlusConfig['dashboard'] = '';
-
 $themePlusConfig['js'] = 'kb-scripts.js';
 
 // Replace the favicon and apple-touch-icons with your own favicon and icons
 // Just copy your favicon in the "Img"-directory in the plugin-directory and
 // uncomment the next line.
 // For the apple-touch-icons do the same.
-//$themePlusConfig['favicon'] = 'favicon.png';
-//$themePlusConfig['apple-touch-icon'] = 'touch-icon-iphone.png';
-//$themePlusConfig['apple-touch-icon72x72'] = 'touch-icon-ipad.png';
-//$themePlusConfig['apple-touch-icon114x114'] = 'touch-icon-iphone-retina.png';
-//$themePlusConfig['apple-touch-icon144x144'] = 'touch-icon-ipad-retina.png';
+
+$themePlusConfig['favicon'] = 'favicon.png';
+$themePlusConfig['apple-touch-icon'] = 'touch-icon-iphone.png';
+$themePlusConfig['apple-touch-icon72x72'] = 'touch-icon-ipad.png';
+$themePlusConfig['apple-touch-icon114x114'] = 'touch-icon-iphone-retina.png';
+$themePlusConfig['apple-touch-icon144x144'] = 'touch-icon-ipad-retina.png';

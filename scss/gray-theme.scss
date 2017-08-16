@@ -889,10 +889,10 @@ input[type="number"], input[type="date"], input[type="email"], input[type="passw
     }
     
     .board-rotation-wrapper {
-        border: 1px solid #000;
         position: relative;
-        padding: 8px;
-        min-height: 150px;
+        padding: 8px 4%;
+        margin: 0 -8px 0;
+        min-height: 300px;
         overflow: hidden;
         cursor: pointer;
     }
