@@ -60,6 +60,7 @@ input[type="password"],
 input[type="text"] {
 	padding-left:5px;
 	border-color:$colorBorder;
+	color:$colorTxt;
 
 	&:focus {
 		box-shadow:none;
@@ -75,23 +76,25 @@ select {
 	//margin-top: 10px;
 	max-width: 95%;
 	width: 200px;
+	border:$colorBorder 1px solid;
 }
 
 textarea {
+	padding:5px 5px 5px 5px;
 	&:focus {
 		box-shadow:none;
 	}
 }
 
-.select2-container--default {
-	.select2-selection--single {
-		min-width:200px;
-		border-color:$colorBorder;
+.select2-container--default,
+.select2-selection--single {
+	min-width:200px;
+	border-color:$colorBorder;
 
-		.select2-selection__rendered {
-			color:$colorTxt;
-		}
+	.select2-selection__rendered {
+		color:$colorTxt;
 	}
+
 	.select2-selection--multiple {
 		border-color:$colorBorder;
 	}
@@ -203,6 +206,17 @@ table {
 	.table-list-details {
 		line-height:22px;
 		margin-bottom:5px;
+	}
+}
+
+
+
+// Sidebar ------------------------------------------------------------------ //
+.sidebar-content {
+	width:calc(100% - 240px);
+
+	@media (max-width: #{$xs-device-width}) {
+		width:100%;
 	}
 }
 
@@ -395,14 +409,23 @@ div.task-board-recent { // New Cards
 }
 
 
-.text-editor-toolbar {
-	width: 700px;
-	max-width: 98%;
-	margin-top:20px;
-	margin-bottom:5px;
-	padding:6px 4px 6px 4px;
+.text-editor {
 
-	background:$colorBgElements;
+	.text-editor-toolbar {
+		width: 700px;
+		max-width: 98%;
+		margin-top:20px;
+		margin-bottom:5px;
+		padding:6px 4px 6px 4px;
+
+		background:$colorBgElements;
+	}
+
+	textarea {
+		width:696px;
+		max-width: 98%;
+	}
+
 }
 
 

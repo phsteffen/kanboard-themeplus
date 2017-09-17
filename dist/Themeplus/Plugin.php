@@ -21,7 +21,8 @@ class Plugin extends Base
 
 
 
-		// Add additional CSS-File in Header
+		// Add additional CSS-File in Header and
+        // change the favicon or apple-touch-icons
 		$this->template->hook->attach('template:layout:head', 'themeplus:layout/head');
 
 
@@ -42,17 +43,6 @@ class Plugin extends Base
 		}
 
 
-
-		// Change the favicon or apple-touch-icons
-		if (isset($themePlusConfig['favicon']) ||
-			isset($themePlusConfig['apple-touch-icon']) ||
-			isset($themePlusConfig['apple-touch-icon72x72']) ||
-			isset($themePlusConfig['apple-touch-icon114x114']) ||
-			isset($themePlusConfig['apple-touch-icon144x144'])) {
-			$this->template->setTemplateOverride('layout', 'themeplus:layout/layout');
-		}
-
-
 	}
 
 
@@ -60,7 +50,7 @@ class Plugin extends Base
 
 	public function getPluginName()	{ 		 return 'Theme Plus'; }
 	public function getPluginAuthor() { 	 return 'Philip Steffen'; }
-	public function getPluginVersion() { 	 return '0.2.0 alpha'; }
+	public function getPluginVersion() { 	 return '0.3.0 beta'; }
 	public function getPluginDescription() { return 'Improved and expanded theme'; }
 	public function getPluginHomepage() { 	 return 'https://github.com/phsteffen/kanboard-themeplus'; }
 

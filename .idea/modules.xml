@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/kanboard-theme-plus.iml" filepath="$PROJECT_DIR$/.idea/kanboard-theme-plus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/kanboard-themeplus.iml" filepath="$PROJECT_DIR$/.idea/kanboard-themeplus.iml" />
     </modules>
   </component>
 </project>
