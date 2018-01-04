@@ -4,53 +4,54 @@
 /* Rename this file to config.php if you want to change the values */
 /*******************************************************************/
 
-// Change the theme in the plugin
-// 'default' = Default theme of kanboard with visual improvements
-// 'dark'    = A dark theme
-// ''        = No theme - for example if you want to integrate your own css-file, not based on the improvements
+// Change the Kanboard theme
+// 'default' = The default kanboard theme with visual improvements
+// 'dark'    = A dark variant of the Themeplus default theme
+// ''        = No theme - No changes to the stock Kanboard style.
 $themePlusConfig['theme'] = 'default';
 
-// Add your own css-file
-// Just copy the file in the "Css"-directory in the plugin-directory and
-// uncomment the next line and perhaps customize the css-filename.
-//$themePlusConfig['css'] = 'my.css';
+// Add your own css file/files
+// Just copy your css file, or files, into the "Css" folder in the
+// Themeplus plugin directory, and uncomment the next line.
+//$themePlusConfig['css'][] = 'my.css';
+// If you need more than one css file, use the syntax on the next line to add more:
+//$themePlusConfig['css'][] = 'my.css';
 
-// Add your logo on the login-page
-// Just copy your logo-file in the "Img"-directory in the plugin-directory and
-// uncomment the next line.
+// Add a logo to the login page
+// Just copy your image file to the "Img" directory in the Themeplus plugin
+// directory, and uncomment the next line.
 //$themePlusConfig['login-logo'] = 'login-logo.png';
-// Uncomment, if you want to link your logo to your domain
+// Uncomment, if you want add a link to your logo.
 //$themePlusConfig['login-logo-link'] = 'https://www.example.com';
 
 // Add one or more links on the login-page
-// For example for an imprint-link
-// Just uncomment the next lines and customize the text.
+// Just uncomment the next block and customize the text.
 /*
 $themePlusConfig['login-link'][] = array(
-	'Impress', // Name of the link
-	'https://www.example.com/impress', // Link
-	'_blank'); // Open the link in a new tab. With '' the link open in the same tab
+	'Impress', // Link text
+	'https://www.example.com/impress', // URL
+	'_blank'); // Open the link in a new tab. Leave empty to open in the same tab.
 */
 /*
-// You can add more than one link...
+// You can add more than one link:
 $themePlusConfig['login-link'][] = array(
 	'Organisation Name',
 	'https://www.example.com',
 	'_blank');
 */
 
-// Replace the KB-logo with your own logo
-// Just copy your logo-file in the "Img"-directory in the plugin-directory and
-// uncomment the next line. The file should be not to height -
-// perhaps 23 Pixel is a good height.
+// Replace the navbar 'KB' logo with your own logo
+// Just copy your image file to the "Img" directory in the Themeplus plugin directory,
+// and uncomment the next line. The file should be not too tall - 23 pixels is recommended.
 //$themePlusConfig['logo'] = 'logo.png';
 
 // Replace the favicon and apple-touch-icons with your own favicon and icons
-// Just copy your favicon in the "Img"-directory in the plugin-directory and
-// uncomment the next line.
-// For the apple-touch-icons do the same.
+// Just copy your favicon to the "Img" directory in the Themeplus plugin directory,
+// and uncomment the next line. Do the same for the apple-touch-icons.
 //$themePlusConfig['favicon'] = 'favicon.png';
 //$themePlusConfig['apple-touch-icon'] = 'touch-icon-iphone.png';
 //$themePlusConfig['apple-touch-icon72x72'] = 'touch-icon-ipad.png';
 //$themePlusConfig['apple-touch-icon114x114'] = 'touch-icon-iphone-retina.png';
 //$themePlusConfig['apple-touch-icon144x144'] = 'touch-icon-ipad-retina.png';
+
+?>
