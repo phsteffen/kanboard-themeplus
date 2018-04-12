@@ -16,7 +16,7 @@ $themePlusConfig['theme'] = 'default';
 //$themePlusConfig['css'] = 'my.css';
 
 // Add your logo on the login-page
-// Just copy your logo-file in the "Img"-directory in the plugin-directory and
+// Just copy your logo-file in the "assets/img"-directory in the plugin-directory and
 // uncomment the next line.
 //$themePlusConfig['login-logo'] = 'login-logo.png';
 // Uncomment, if you want to link your logo to your domain
@@ -40,13 +40,13 @@ $themePlusConfig['login-link'][] = array(
 */
 
 // Replace the KB-logo with your own logo
-// Just copy your logo-file in the "Img"-directory in the plugin-directory and
+// Just copy your logo-file in the "assets/img"-directory in the plugin-directory and
 // uncomment the next line. The file should be not to height -
 // perhaps 23 Pixel is a good height.
 //$themePlusConfig['logo'] = 'logo.png';
 
 // Replace the favicon and apple-touch-icons with your own favicon and icons
-// Just copy your favicon in the "Img"-directory in the plugin-directory and
+// Just copy your favicon in the "assets/img"-directory in the plugin-directory and
 // uncomment the next line.
 // For the apple-touch-icons do the same.
 //$themePlusConfig['favicon'] = 'favicon.png';
