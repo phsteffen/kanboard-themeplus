@@ -1,19 +1,15 @@
 # KB-themeplus-gray
 
-Modern and responsive theme for kanboard. 
+Modern and responsive theme for kanboard.
 
 > **Kanboard** is a project management software that focuses on the Kanban methodology.
 https://github.com/fguillot/kanboard
-
-
 
 #### Important
 
 **The actual version of this plugin tested under on kanboard v1.0.46**
 
 This is a fork from [Themeplus](https://github.com/phsteffen/kanboard-themeplus) but we made a lot of improvements on style.
-
-
 
 #### Visual improvements of the kanboard-default-Theme
 
@@ -24,15 +20,17 @@ This is a fork from [Themeplus](https://github.com/phsteffen/kanboard-themeplus)
 * Add mobile hamburguer menu for access Sidebar in small screens
 * Add more padding for improve the visual comfort
 * Material Design like inputs
-* New stykle 
+* New stykle
 
 #### Installation
 
 1. First you have to install [kanboard](https://github.com/fguillot/kanboard).
-2. Than just copy the Themeplus-Plugin (`Themeplus`) in the plugin-Directory
-   of kanboard (`plugins`).
+1. Download from https://github.com/deciobenicio/kb-themeplus-stgray/archive/master.zip
+1. One will get a file "kb-themeplus-stgray-master.zip"
+1. Unzip creates a directory "kb-themeplus-stgray-master"
+1. Rename to "Themeplus" (**the directory name is sensive case, so, need to be "Themeplus"**)
+1. Copy to "plugins" folder
 1. That's it. The default-theme is updated.
-
 
 #### Author
 
@@ -73,4 +71,3 @@ Mobile Version :-D
 ![Screenshot task list mobile](https://github.com/deciobenicio/kanboard-themeplus/raw/master/screenshots/list-tasks-mobile.png)
 
 ![Screenshot task list mobile](https://github.com/deciobenicio/kanboard-themeplus/raw/master/screenshots/list-tasks.png)
-
