@@ -663,6 +663,22 @@ screen and (min-width:768px) and (max-width:960px) {
     margin: 0;
     box-shadow: 0 .1rem .2rem rgba(53, 64, 80, .12), 0 .05rem .25rem rgba(53, 64, 80, .24)
 }
+form.search input{
+  font-size: 3em;
+  text-align: center;
+  padding-bottom: 0px;
+}
+input[placeholder="Pesquisar"]::placeholder {
+  color: black !important;;
+}
+form.search{
+    margin: 20px 0 0 40px;
+    font-size: 1.5em
+}
+
+.input-addon #form-search{
+  font-size: 1em !important;
+}
 
 #board .board-column-header,
 .accordion-section,
@@ -1100,7 +1116,7 @@ td.color-purple {
 .task-board.color-red,
 .task-summary-container.color-red {
     background-color: #fff;
-    border-color: #ff9797
+    border-color: red
 }
 
 td.color-red {
