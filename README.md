@@ -1,7 +1,7 @@
 # kanboard-themeplus
 Improved and expanded theme of kanboard.
 kanboard is a project management software that focuses on the Kanban methodology.
-https://github.com/fguillot/kanboard
+https://github.com/kanboard/kanboard
 
 
 
@@ -11,7 +11,7 @@ Because this plugin is based on an specific version of kanboard
 please be careful on upgrade. Perhaps some elements will be changed in future
 versions of kanboard and you have to update the plugin too.
 
-**The actual version of this plugin is based on kanboard v1.0.46**
+**The actual version of this plugin is based on kanboard v1.2.9**
 
 
 
@@ -48,7 +48,7 @@ config-default.php.
 
 #### Installation
 
-1. First you have to install [kanboard](https://github.com/fguillot/kanboard).
+1. First you have to install [kanboard](https://github.com/kanboard/kanboard).
 1. Than just copy the Themeplus-Plugin (`dist/Themeplus`) in the plugin-Directory
    of kanboard (`plugins`).
 1. That's it. The default-theme is updated.

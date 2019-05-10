@@ -10,9 +10,7 @@
             <?= $this->text->e($title) ?>
         <?php endif ?>
     </span>
-    <?php if (! empty($description)): ?>
-        <small class="tooltip" title="<?= $this->text->markdownAttribute($description) ?>">
-            <i class="fa fa-info-circle"></i>
-        </small>
-    <?php endif ?>
+	<?php if (! empty($description)): ?>
+		<?= $this->app->tooltipHTML($description) ?>
+	<?php endif ?>
 </h1>

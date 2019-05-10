@@ -50,7 +50,7 @@ class Plugin extends Base
 
 	public function getPluginName()	{ 		 return 'Theme Plus'; }
 	public function getPluginAuthor() { 	 return 'Philip Steffen'; }
-	public function getPluginVersion() { 	 return '0.3.0 beta'; }
+	public function getPluginVersion() { 	 return '0.4.0 beta'; }
 	public function getPluginDescription() { return 'Improved and expanded theme'; }
 	public function getPluginHomepage() { 	 return 'https://github.com/phsteffen/kanboard-themeplus'; }
 
