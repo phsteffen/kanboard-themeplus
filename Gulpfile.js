@@ -12,24 +12,46 @@ var cleancss = require('gulp-clean-css');
 
 
 // -------------------------------------------------------------------------- //
+// VARS
+// -------------------------------------------------------------------------- //
+
+var paths = {
+	styles: {
+		src: 'resources/sass/*.scss',
+		dest: './dist/Themeplus/Css/'
+	}
+};
+
+
+
+// -------------------------------------------------------------------------- //
 // STYLE                                                                      //
 // -------------------------------------------------------------------------- //
 
-gulp.task('styles', function() {
-	gulp.src('resources/sass/*.scss')
+function styles() {
+	return gulp.src(paths.styles.src)
 		.pipe(sass().on('error', sass.logError))
-		.pipe(autoprefixer('last 3 versions', '> 1%', 'ie 8'))
-		.pipe(cleancss({compatibility: 'ie8'}))
-		.pipe(gulp.dest('dist/Themeplus/Css/'));
-});
+		.pipe(autoprefixer())
+		.pipe(cleancss())
+		.pipe(gulp.dest(paths.styles.dest));
+}
 
 
 
 // -------------------------------------------------------------------------- //
-// WATCH-TASK                                                                 //
+// WATCH-TASK
 // -------------------------------------------------------------------------- //
 
-gulp.task('default',function() {
-	gulp.start('styles');
-	gulp.watch('resources/sass/**/*', ['styles']);
-});
+function init() {
+	styles();
+	gulp.watch('resources/sass/**/*.scss', styles);
+}
+
+
+
+// -------------------------------------------------------------------------- //
+// SERIES AND TASKS
+// -------------------------------------------------------------------------- //
+
+exports.styles = styles;
+exports.default = init;
