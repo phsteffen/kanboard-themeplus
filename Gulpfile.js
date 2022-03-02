@@ -5,7 +5,7 @@
 // -------------------------------------------------------------------------- //
 
 var gulp = require('gulp');
-var sass = require('gulp-sass');
+var sass = require('gulp-sass')(require('sass'));
 var autoprefixer = require('gulp-autoprefixer');
 var cleancss = require('gulp-clean-css');
 
