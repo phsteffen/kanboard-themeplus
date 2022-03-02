@@ -584,4 +584,27 @@ div.task-board-recent { // New Cards
 		  	background:none;
 		}
 	}
+
+	hr {
+		border-bottom:none;
+		border-top-color: #DDDDDD;
+		margin-top:15px;
+		margin-bottom:15px;
+	}
+
+	blockquote {
+		margin-top:25px;
+		margin-bottom:15px;
+		margin-left:0;
+
+		blockquote {
+			margin-top:15px;
+		}
+	}
+
+	table {
+		width:auto;
+		margin-top:20px;
+	}
+
 }
