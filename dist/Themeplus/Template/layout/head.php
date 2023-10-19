@@ -26,12 +26,13 @@
 <?php else: ?>
         <link rel="apple-touch-icon" sizes="144x144" href="<?= $this->url->dir() ?>plugins/Themeplus/Img/<?= $themePlusConfig['apple-touch-icon144x144'] ?>">
 <?php endif; ?>
-
         <!-- Themeplus: CSS -->
 <?php if ($themePlusConfig['theme'] != ''): ?>
         <link rel="stylesheet" type="text/css" href="<?= $this->url->dir(); ?>plugins/Themeplus/Css/<?= $themePlusConfig['theme'] ?>.css" media="all" />
 <?php endif; ?>
 <?php if (isset($themePlusConfig['css']) && $themePlusConfig['css'] != ''): ?>
-        <link rel="stylesheet" type="text/css" href="<?= $this->url->dir(); ?>plugins/Themeplus/Css/<?= $themePlusConfig['css'] ?>" media="all" />
+        <?php foreach($themePlusConfig['css'] AS $css): ?>
+            <link rel="stylesheet" type="text/css" href="<?= $this->url->dir(); ?>plugins/Themeplus/Css/<?= $css ?>" media="all" />
+        <?php endforeach; ?>
 <?php endif; ?>
 
